@@ -11,31 +11,31 @@ export class HomeFeatureComponent implements OnInit{
   dynamicSlides = [
     {
       id: 1,
-      src:'../../assets/images/1.png',
+      src:'/../../assets/images/1.png',
       alt:'Side 1',
       title:'Side 1'
     },
     {
       id: 2,
-      src:'../../assets/images/1.png',
+      src:'/../../assets/images/1.png',
       alt:'Side 2',
       title:'Side 2'
     },
     {
       id: 3,
-      src:'../../assets/images/1.png',
+      src:'/../../assets/images/1.png',
       alt:'Side 3',
       title:'Side 3'
     },
     {
       id: 4,
-      src:'../../assets/images/1.png',
+      src:'/../../assets/images/1.png',
       alt:'Side 4',
       title:'Side 4'
     },
     {
       id: 5,
-      src:'../../assets/images/10.jpg',
+      src:'/../../assets/images/10.jpg',
       alt:'Side 5',
       title:'Side 5'
     }
