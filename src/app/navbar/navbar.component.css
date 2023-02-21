@@ -41,4 +41,28 @@
     .nav-logo-wrapper {
         width: 80%;
     }
+   .collapse.navbar-collapse.custom-width-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    height: 100vh;
+}
+
+.collapse:not(.show) {
+    display: flex !important;
+  }
+}
+@media (min-width: 992px) {
+    .custom-width-menu {
+       padding-left: 250px;
+    }
+}  
+
+/* .isActive {
+  border-bottom: 3px solid red; 
+  transition: all 0.3s;
+} */
+
+a:hover {
+    border-bottom: 2px solid #08338a;
 }
