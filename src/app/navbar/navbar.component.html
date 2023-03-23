@@ -21,7 +21,7 @@
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" routerLink="/about-us/who-we-are" [routerLinkActive]="['isActive']" (click)="enableMenu()">Who we are</a></li>
                 <li><a class="dropdown-item" [routerLinkActive]="['isActive']" (click)="enableMenu()">Divirsity and Inclusion</a></li>
-                <li><a class="dropdown-item" [routerLinkActive]="['isActive']" (click)="enableMenu()">Locations</a></li>
+                <li><a class="dropdown-item" routerLink="/get-in-touch" [routerLinkActive]="['isActive']" (click)="enableMenu()">Locations</a></li>
               </ul>
           </li>
           <li class="nav-item">
@@ -47,7 +47,7 @@
                </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" routerLink="/get-in-touch" [routerLinkActive]="['isActive']"><span class="right-header-cust">Get in touch</span></a>
+            <a class="nav-link" routerLink="/get-in-touch" [routerLinkActive]="['isActive']" (click)="enableMenu()"><span class="right-header-cust">Get in touch</span></a>
           </li>
         </ul>
       </div>
